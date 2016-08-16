@@ -1,0 +1,26 @@
+[
+	{
+		"text"  : "Facebook",
+		"title" : "Go to X",
+		"url"   : "#",
+		"class" : "icon facebook"
+	},
+	{
+		"text"  : "Twitter",
+		"title" : "Go to X",
+		"url"   : "#",
+		"class" : "icon twitter"
+	},
+	{
+		"text"  : "Instagram",
+		"title" : "Go to X",
+		"url"   : "#",
+		"class" : "icon instagram"
+	},
+	{
+		"text"  : "Strava",
+		"title" : "Go to X",
+		"url"   : "#",
+		"class" : "icon strava"
+	}
+]

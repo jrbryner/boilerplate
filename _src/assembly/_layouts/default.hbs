@@ -1,0 +1,19 @@
+<!doctype html>
+<html class="no-js" lang="en-us">
+<head>
+{{> head }}
+</head>
+<body  class="{{#if pageclass}}{{ pageclass }}{{/if}}">
+
+{{> body }}    
+	
+<!-- @if NODE_ENV == 'DEVELOPMENT' -->
+<script src="{{ assets }}js/main.js"></script>
+<!-- @endif -->
+
+<!-- @if NODE_ENV == 'PRODUCTION' -->
+<script src="{{ assets }}js/main.min.js"></script>
+<!-- @endif -->
+
+</body>
+</html>

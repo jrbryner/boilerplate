@@ -1,0 +1,72 @@
+$colors : (
+	'header-background' : #333333,
+	'dark-grey'         : #2e2e2e,
+	'light-grey'        : #404040,
+	'menu-links'        : #515151,
+	'header-grey'       : #626262,
+	'link-color'        : #818181,	
+	'footer-text'       : #979797,
+	'carousel-text'     : #bebebe,
+	'menu-links-border' : #D7D7D7,	
+	'light-tan'         : #e9e5d9,
+	'medium-tan'        : #dcd6c2,
+	'dark-tan'          : #bdb390,
+	'deep-red'          : #c75151,
+	'alt-tan'           : #DBCA96,
+	'vivid-red'         : #c41230,
+	'blue'              : #336699,
+	'white'             : #fff,
+	'black'             : #000	    
+);
+
+$body-background : map-get($colors, 'header-background');
+$body-font-color : map-get($colors, 'black');
+
+$body-font-family       : "nimbus-sans", 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$font-family-alt        : "proxima-nova", arial;
+$header-font-family     : $body-font-family;
+$header-font-family-alt : $font-family-alt;
+$global-font-size       : 13px;
+$global-weight-normal   : 400;
+$header-font-weight     : 400;
+$global-width           : 1200px;
+$anchor-color-hover     : map-get($colors, 'white');
+
+$form-label-font-size : 14px;
+$form-label-color     : map-get($colors, 'dark-grey');
+$input-border         : 1px solid map-get($colors, 'menu-links-border');
+$input-shadow         : none;
+
+$accordion-plusminus  : false;
+$accordion-item-color : map-get($colors, 'dark-grey');
+$accordion-item-background-hover : map-get($colors, 'light-tan');
+$accordion-content-border : 1px dotted map-get($colors, 'light-grey');
+
+$reveal-zindex : 4000;
+$reveal-overlay-background: rgba(0,0,0,.7);
+
+$img-path              : '../imgs/';
+$font-path             : '../fonts/';
+
+$highdpi : '(-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3/2), (min-resolution: 1.5dppx)';
+
+$mobile-menu-speed : 300ms;
+$sidebar-width: 240px;
+
+$depth : (
+	'sidebar': 1500,
+	'content': 2000,
+	'header' : 3000,
+	'mobile-nav-trigger': 300
+);
+
+$breakpoints: (
+  small: 0,
+  medium: 640px,
+  large: 1200px
+);
+
+
+//$sprites   : sprite-map('sprites/*.png');
+//$sprites2x : sprite-map('sprites2x/*.png');
+

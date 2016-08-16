@@ -1,0 +1,35 @@
+{
+  "name": "main",
+  "description": "LTCC",
+  "version": "0.1.0",
+  "buildPath": "_src/",
+  "assetsPath": "_resources/",
+  "destination": "./",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "devDependencies": {
+    "autoprefixer": "6.3.6",
+    "csswring": "~5.0.0",
+    "foundation-sites": "^6.2.3",
+    "grunt": "~1.0.0",
+    "grunt-assemble": "~0.4.0",
+    "grunt-browser-sync": "2.2.0",
+    "grunt-contrib-compass": "~1.1.1",
+    "grunt-contrib-concat": "~1.0.1",
+    "grunt-contrib-cssmin": "^1.0.1",
+    "grunt-contrib-jshint": "~1.0.0",
+    "grunt-contrib-uglify": "~1.0.1",
+    "grunt-contrib-watch": "~1.0.0",
+    "grunt-css-purge": "0.0.4",
+    "grunt-env": "~0.4.4",
+    "grunt-modernizr": "~1.0.2",
+    "grunt-postcss": "0.8.0",
+    "grunt-preprocess": "~5.1.0",
+    "grunt-prettify": "~0.4.0",
+    "grunt-replace": "1.0.0",
+    "jshint-stylish": "^2.2.0",
+    "load-grunt-tasks": "~3.5.0"
+  }
+}

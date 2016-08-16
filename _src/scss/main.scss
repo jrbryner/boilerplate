@@ -1,0 +1,63 @@
+@import 'foundation-sites/scss/settings/settings';
+@import 'theme/setup';
+
+// Reset
+@import 'lib/normalize';
+@import 'foundation-sites/scss/global';
+
+// Foundation
+@import 'foundation-sites/scss/grid/grid';
+@import 'foundation-sites/scss/typography/typography';
+@import 'foundation-sites/scss/components/visibility';
+@import 'foundation-sites/scss/components/accordion';
+@import 'foundation-sites/scss/components/reveal';
+@import 'foundation-sites/scss/components/close-button';
+@import 'foundation-sites/scss/forms/forms';
+
+
+@include foundation-global-styles;
+@include foundation-grid;
+@include foundation-typography;
+@include foundation-visibility-classes;
+@include foundation-forms;
+@include foundation-accordion;
+@include foundation-reveal;
+@include foundation-close-button;
+
+@import 'theme/fonts';
+@import 'theme/icons';
+
+// Plugins/Mixins
+@import 'lib/mixins';
+@import 'lib/grid-extension';
+@import 'lib/slick';
+@import 'lib/slick-theme';
+
+// Theme
+@import 'theme/default/type';
+@import 'theme/default/atoms';
+@import 'theme/default/organisms';
+@import 'theme/default/structure';
+@import 'theme/default/templates';
+
+
+/*
+@media screen and #{breakpoint(medium)} {
+	@import 'theme/medium/organisms';
+	@import 'theme/medium/structure';
+	@import 'theme/medium/templates';
+}
+
+
+@media screen and #{breakpoint(large)} {
+	@import 'theme/large/type';
+	@import 'theme/large/atoms';
+	@import 'theme/large/organisms';
+	@import 'theme/large/structure';
+	@import 'theme/large/templates';
+}
+
+@media screen and #{breakpoint(xlarge)} {
+	@import 'theme/xlarge/structure';
+}
+*/
